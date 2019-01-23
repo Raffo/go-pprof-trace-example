@@ -5,7 +5,6 @@ import (
 	"log"
 	"net/http"
 	"net/http/pprof"
-	"os"
 )
 
 func healthcheckHandler(w http.ResponseWriter, _ *http.Request) {
